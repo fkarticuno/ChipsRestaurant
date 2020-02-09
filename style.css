@@ -60,4 +60,7 @@ img:target {
     .carousel-images {
         width: 100vw;
     }
+    bodym .body {
+        height: unset;
+    }
 }
