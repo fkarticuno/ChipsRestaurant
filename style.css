@@ -5,34 +5,37 @@ body {
     padding:0;
     overflow: hidden;
 }
-.cont {
-    
+.cont {    
     height: 100vh;
     width: 100vw;
     margin: auto;
-    
+    display: inline-flex;
 }
 .head, .body, .foot {
     width: 100%
 }
 .body {
     height: 80%;
+    
 }
 .head, .foot {
     height: 10%;
 }
-
+.head {
+    display: inline-flex;
+}
+.logo {
+    height: 10vh;
+}
 /* For Positioning Identification Only */
 div {
     /* border: 2px solid black; */
     background-color: rgb(167, 201, 218);
 }
 /* For Positioning Identification Only */
-
 .soc {
     height: 30px;
 }
-
 /* Carousel */
 .carousel-images {
     height: 50vh;
@@ -60,7 +63,7 @@ img:target {
     .carousel-images {
         width: 100vw;
     }
-    bodym .body {
+    body, .body {
         height: unset;
     }
 }
