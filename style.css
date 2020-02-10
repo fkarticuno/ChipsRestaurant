@@ -28,7 +28,7 @@ body {
     /* display: inline-flex; */
 }
 .logo {
-    height: 20vh;
+    height: 10vh;
     width: 100vw;
     min-width: 420px;
 }
@@ -36,7 +36,7 @@ body {
     align-content : center;
     max-width: 400px;
     min-width: 420px;
-    height:20vh;
+    height:10vh;
 }
 li {
     font-size: 1.5em;
