@@ -32,6 +32,12 @@ body {
     width: 100vw;
     min-width: 420px;
 }
+.logoimg {
+    align-content : center;
+    max-width: 400px;
+    min-width: 420px;
+    height:20vh;
+}
 li {
     font-size: 1.5em;
 }
