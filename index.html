@@ -13,7 +13,7 @@
         <div class="head">
             <div class="logo"><img src="./Images/logo1.png" alt="" class="logo" id="1"></div>
             <div class="contact">
-                <li id="1">phone: <a href="tel:555-365-7741">555-365-7741</a></li>
+                <li id="1">Phone: <a href="tel:555-365-7741">555-365-7741</a></li>
                 <li id="2">Email: <a href="mailto:ChipsRestaurant@gmail.com">ChipsRestaurant</a></li>
                 <li id="3">Address: <a href="https://tinyurl.com/ubr92s3">212 Bermuda Triangle Road</a> </li>
                 <li id="4">Social: 
@@ -23,8 +23,19 @@
                     <img src="./Images/yelp.png" alt="" class="soc" id="4"> 
                 </li>
             </div>
-            <div style="width: 50%"><iframe width="300px" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;q=212%20Bermuda%20Triangle%20Road+(Chips%20Restaurant)&amp;ie=UTF8&amp;t=h&amp;z=20&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br />https://www.maps.ie/create-google-map/</div>
+            <div class="directions">
+                <input type="text" name="" id="search" onchange="updateDirections()" />
+                <a id="startAddressSearch" href="https://maps.google.com/maps/dir/africa/china">
+                    <input type="button" name="" value="Get Directions" id="sendSearch" />
+                </a>
+            </div>
+            <iframe src=https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d101573.79149216817!2d-77.4699643487345!3d37.2908442394295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x89b1a49a20af6a6f%3A0xc365091b0b506c76!2sPetersburg!3m2!1d37.2279279!2d-77.40192669999999!4m5!1s0x89b1089026aab145%3A0x211c15d09fb6c7f4!2sBermuda%20Triangle%20Rd%2C%20Bermuda%2C%20VA%2023836!3m2!1d37.3550386!2d-77.3916488!5e0!3m2!1sen!2sus!4v1581289661262!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" id="map2"></iframe>
+
+            <!-- <iframe width="300px" height="300px" src="https://maps.google.com/maps?width=100%&amp;height=200&amp;hl=en&amp;q=212%20Bermuda%20Triangle%20Road+(Chips%20Restaurant)&amp;ie=UTF8&amp;t=h&amp;z=20&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br /> -->
             
+    
+            <!--https://www.maps.ie/create-google-map/ -->
+
         </div>
 <!-- Body -->
         <div class="body">
@@ -51,5 +62,8 @@
     </div>
 
     <script src="scripts.js"></script>
+    <script>
+    
+    </script>
 </body>
 </html>
