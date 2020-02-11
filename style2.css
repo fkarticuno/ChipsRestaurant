@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(167, 201, 218);
+    display: flex;
+    margin: 0 auto;
+    max-width: 80vw;
+}
+.head {
+    
+}
+.soc {
+    height: 30px;
+}
+
+.r1 {
+    flex: 1;
+}
+.body {
+    flex: 1;
+    order: 2;
+}
+.sidebar1 {
+    flex: 1;
+    order: 1;
+}
+.cont {
+    flex: 1;
+    order: 2;
+}
+.sidebar2 {
+    flex: 1;
+    order: 3;
+}
+
+.carousel-images {
+    height: 50vh;
+    width: 50%;
+    min-width: 290px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* CURRENT way. */
+    scroll-snap-type: x mandatory;  
+    flex: 1;
+}
+.car-img {
+    width: 100%;
+    height: calc(width);
+    flex-shrink: 0;
+    scroll-snap-align: start;   
+}
+iframe {
+    height: 95%;
+}
+
+
+@media (max-width: 500px) {
+    .body {
+        flex-wrap: wrap;
+        max-width: 100vh;
+    }
+}
