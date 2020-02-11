@@ -1,9 +1,5 @@
-.soc {
-    height: 30px;
-}
 html {
     background: linear-gradient(to left, rgb(112, 101, 214), rgb(230, 106, 213));
-    background-size: 300vh;
     background-size: 800% 800%;
     -webkit-animation: AnimationName 40s ease infinite;
     -moz-animation: AnimationName 40s ease infinite;
@@ -32,6 +28,9 @@ body {
     -webkit-overflow-scrolling: touch;
     padding-top: 50px;
 }
+.soc {
+    height: 30px;
+}
 a {
     color: darkslateblue;
 }
@@ -46,7 +45,6 @@ a {
 .head {
     display: flex;
     flex-direction: row;
-
 }
 .logoimg, .subhead {
     max-width: 50%;
@@ -75,8 +73,8 @@ a {
 
 
 @media (max-width: 500px) {
-    body {
-        padding-top: 0;
+    body, html {
+        padding: 0;
         margin: 0;
     }
     .head {
