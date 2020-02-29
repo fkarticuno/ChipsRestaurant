@@ -1,4 +1,4 @@
-# ChipsRestaurant - Brochure Site proj2
+# ChipsRestaurant - Brochure Site 2/5
 
 This Brochure Site displays functionality for a fictional restaurant (Chips) and includes location, directions, menu, gallery, contact info, and reviews. 
 
@@ -24,8 +24,8 @@ See the list of [contributors](https://github.com/fkarticuno/ChipsRestaurant/gra
 ## Planned updates
 
 New revisions of Portfolio will contain these example apps to showcase my skills in development
-1. Web application using api
-2. Brochure site
-3. E-commerce site
-4. Personal Portfolio
-5. Simple game
+1. [Web application using api](#)
+2. [Brochure site](https://github.com/fkarticuno/ChipsRestaurant)
+3. [E-commerce site](https://github.com/fkarticuno/ShopAround)
+4. [Personal Portfolio](https://github.com/fkarticuno/CodingPortfolio)
+5. [Simple game](#)
