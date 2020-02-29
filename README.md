@@ -28,7 +28,7 @@ See the list of [contributors](https://github.com/fkarticuno/ChipsRestaurant/gra
 ## Planned updates
 
 New revisions of Portfolio will contain these example apps to showcase my skills in development
-1. [Web application using api](#)
+1. [Web application using api](https://github.com/fkarticuno/MakeADrink)
 2. [Brochure site](https://github.com/fkarticuno/ChipsRestaurant)
 3. [E-commerce site](https://github.com/fkarticuno/ShopAround)
 4. [Personal Portfolio](https://github.com/fkarticuno/CodingPortfolio)
