@@ -15,7 +15,7 @@ var priceEnd = `.99</p>`
   </div>
 </div> */}
 
-const foodImgs = ['tacos.png','burrito.png','chips&Salsa.png','Carnitas.jpeg','tamales.jpg','quesadilla.jpg']
+const foodImgs = ['tacos.png','burrito.png','chips&Salsa.png','carnitas.jpeg','tamales.jpg','quesadilla.jpg']
 const foodDesc = [
     'A Mexican dish consisting of a fried tortilla, typically folded, filled with various mixtures, such as seasoned meat, beans, lettuce, and tomatoes.',
     'One burrito, choice of steak or chicken, covered with nacho cheese, lettuce, tomato and sour cream, served with rice or beans',
