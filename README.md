@@ -6,10 +6,14 @@ This Brochure Site displays functionality for a fictional restaurant (Chips) and
 
 ## [Try it yourself!](https://fkarticuno.github.io/ChipsRestaurant/) 
 
-![image](https://fkarticuno.github.io/CodingPortfolio/Assets/Images/00.png)
+![image](https://fkarticuno.github.io/CodingPortfolio/Assets/Images/21.png)
 
 ## Built With
-
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - An open source toolkit for developing with HTML, CSS, and JS.
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Standard markup language for documents designed to be displayed in a web browser.
+* [JavaScript](https://www.javascript.com/) - High-level, often just-in-time compiled, and multi-paradigm.
+* [Jquery](https://jquery.com/) - A fast, small, and feature-rich JavaScript library
+* [GoogleFonts](https://fonts.google.com/?selection.family=Akronim) - Fancy fonts to make site unique.
 <!-- * [MongoDB](https://www.mongodb.com/) - NoSQL Database
 * [Express.js](https://expressjs.com/) - Node.js framework
 * [React.js](https://reactjs.org/) - MVC front-end framework 
@@ -28,4 +32,4 @@ New revisions of Portfolio will contain these example apps to showcase my skills
 2. [Brochure site](https://github.com/fkarticuno/ChipsRestaurant)
 3. [E-commerce site](https://github.com/fkarticuno/ShopAround)
 4. [Personal Portfolio](https://github.com/fkarticuno/CodingPortfolio)
-5. [Simple game](#)
+5. [Simple game](https://github.com/fkarticuno/JSpiano)
