@@ -3,46 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chips Restaurant</title>
-    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cont">
-    <div class="head">
-        <div class="logo">
-            <img src="./Images/logo1.png" alt="" class="logoimg" id="1">
-        </div>
-        
-        <div class="subhead-container">
-            <div class="subhead">
-                Phone: <a href="tel:555-365-7741">555-365-7741</a><br/>
-                Email: <a href="mailto:ChipsRestaurant@gmail.com">ChipsRestaurant</a><br/>
-                Address: <a href="https://tinyurl.com/ubr92s3">212 Bermuda Triangle Road</a><br/>
-                Social: 
-                <img src="./Images/facebook.png" alt="" class="soc" id="1">
-                <img src="./Images/twitter.jpg" alt="" class="soc" id="2">
-                <img src="./Images/yelp.png" alt="" class="soc" id="3">
-                <br/>
-                <input type="text" name="" placeholder="Enter Your Address" id="search" onchange="updateDirections()" />
-                <a id="startAddressSearch" href="https://maps.google.com/maps/dir/africa/china">
-                    <input type="button" name="" value="Get Directions" id="sendSearch" />
-                </a>
-            </div>
-        </div>
-        
-    </div>
-    
-        <div class="carousel-images">
-            <div class="pages1 car-img"><h1>PAGE 01</h1><br/><h2>Swipe to advance</h2></div>
-            <div class="pages2 car-img"><h1>PAGE 02</h1><br/><h2>Swipe to advance</h2></div>
-            <div class="pages3 car-img"><h1>PAGE 03</h1><br/><h2>Swipe to advance</h2></div>
-            <div class="pages4 car-img"><h1>PAGE 04</h1><br/><h2>Swipe to advance</h2></div>
-            <img src="./Images/chipSalsa.png" id='slide1' alt="" class="car-img">
-            <img src="./Images/tacos.png" id='slide2' alt="" class="car-img">
-            <img src="./Images/burrito.png" id='slide3' alt="" class="car-img">
-            <iframe class="map car-img" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d101573.79149216817!2d-77.4699643487345!3d37.2908442394295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x89b1a49a20af6a6f%3A0xc365091b0b506c76!2sPetersburg!3m2!1d37.2279279!2d-77.40192669999999!4m5!1s0x89b1089026aab145%3A0x211c15d09fb6c7f4!2sBermuda%20Triangle%20Rd%2C%20Bermuda%2C%20VA%2023836!3m2!1d37.3550386!2d-77.3916488!5e0!3m2!1sen!2sus!4v1581289661262!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
-    </div>        
-    <script src="scripts.js"></script>
+  <h1>Chips Restaurant</h1>
+  <div class="header contacts">
+    <a href="tel:555-365-7741"><img class="icon" src="https://img.icons8.com/ultraviolet/2x/phone-office.png">555-365-7741</a>
+    <a href="mailto:ChipsRestaurant@gmail.com"><img class="icon" src="https://img.icons8.com/dusk/2x/email.png">ChipsRestaurant</a>
+    <a href="https://tinyurl.com/ubr92s3"><img class="icon" src="https://img.icons8.com/plasticine/2x/shop.png">212 Bermuda Triangle Road</a> <br />
+  </div>
+  <div class="header">
+    <a href="https://www.facebook.com/search/top/?q=chips%20restaurant&epa=SEARCH_BOX" class="socialSpacer" target="_blank" ><img  src="./Images/facebook.png" alt="" class="socialSpacer" id="1"></a>
+    <a href="https://twitter.com/search?q=chips%20restaurant&src=typed_query" class="socialSpacer" target="_blank" ><img src="./Images/twitter.jpg" alt="" class="socialSpacer" id="2"></a>
+    <a href="https://www.yelp.com/search?find_desc=chips%20restaurant&find_loc="class="socialSpacer" target="_blank" ><img src="./Images/yelp.png" alt="" class="socialSpacer" id="3"></a>
+  </div>
+  <br/>
+  <div class="header">
+    <input type="text" name="" placeholder="Enter Your Address" id="search" onchange="updateDirections()" />
+    <a id="startAddressSearch" href="https://maps.google.com/maps/dir/africa/china" target='_blank'>
+        <input type="button" name="" value="Get Directions" id="sendSearch"  />
+    </a>
+  </div>
+    <div class="menuTitle"><h1>Menu</h1></div>
+    <div class="carousel-images cards"></div>
+ 
+  
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

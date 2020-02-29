@@ -1,99 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim&display=swap');
 body {
-    height: 100hv;
-    width: 100vw;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-}
-.cont {    
-    height: 100vh;
-    width: 100vw;
+    background: url('https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
     margin: auto;
-    min-width: 420px;
-    /* display: inline-flexbox; */
-    /* flex-wrap: wrap;
+    max-width: 50vw;
+    flex-direction: column;   
+    -webkit-overflow-scrolling: touch;
     justify-content: center;
-    flex-direction:  row; */
-}
-.head, .body, .foot {
-    width: 100%
-}
-.body {
-    height: 80%;
-}
-.head, .foot {
-    height: 10%;
-}
-.head {
-    /* display: inline-flex; */
-}
-.logo {
-    height: 10vh;
-    width: 100vw;
-    min-width: 420px;
-}
-.logoimg {
-    align-content : center;
-    max-width: 400px;
-    min-width: 420px;
-    height:10vh;
-}
-li {
-    font-size: 1.5em;
-}
-.soc {
-    height: 30px;
-}
-.map2 {
-    height:30vh;
-    width: 30vh;
-}
-.contact, .directions, .map2 {
-    display: inline-flex;
-}
-/* For Positioning Identification Only */
-div {
-    /* border: 2px solid black; */
-    background-color: rgb(167, 201, 218);
-}
-/* For Positioning Identification Only */
-
-/* Carousel */
-.carousel {
-    display: block;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .carousel-images {
     height: 50vh;
-    width: 45vw;
-    margin: auto;
+    width: 50vw;
+    min-width: 290px;
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    /* CURRENT way. */
+    scroll-behavior: smooth;
     scroll-snap-type: x mandatory;  
-}
-img:hover {
-    transform: scale(0.8);
+    flex: 1;
 }
 .car-img {
-    width: auto;
+    width: 100%;
+    height: calc(width);
     flex-shrink: 0;
-    height: 100%;
-    scroll-snap-align: start;
+    scroll-snap-align: start;   
+}
+.cards {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card {
+    background: rgb(248, 248, 248, .9);
+}
+.socialSpacer {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: center;
+    align-items: center; 
+    background: rgb(248, 248, 248, .9);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+h1 {
+    font-family: 'Akronim';
+    background: rgb(248, 248, 248, .9);
+    border-radius: 10px;
+    color: tomato;
+    font-size: 4em;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2em;
+        width: 100vw;
+        text-align: center;
+    }
+    .header {
+        width: 100vw;
+        border: none;
+        border-radius: 0px;
+    }
+    .contacts {
+        justify-content: left;
+    }
+    input {
+        width: 100vw;
+        text-align: center;
+    }
+    .carousel-images{
+        min-width: 100vw;
+    }
+    .card-img-top, .card-body {
+        width: 70%;
+    }
 
-/* Media Queries */
-@media screen and (max-width: 575px) {
-    .carousel-images {
-        width: 50vh;
-    }
-    .car-img {
-        height: 25vh;
-    }
-    body, .body {
-        height: unset;
-        overflow-y: unset;
-    }
-       
 }
